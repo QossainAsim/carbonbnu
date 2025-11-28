@@ -16,7 +16,7 @@ export default function CarbonBNUVisualizer() {
     { month: "May 2025", gridunitsConsumed: 116000, gridEmission: 71340, solarProduction: 103934,savedEmissions: 63919.41 , netEmissions: 7420.59 },
     { month: "Jun 2025", gridunitsConsumed: 148000, gridEmission: 91020, solarProduction: 91186, savedEmissions: 56079.39 , netEmissions: 34940.61 },
     { month: "Jul 2025", gridunitsConsumed: 64000, gridEmission: 39360, solarProduction: 85526, savedEmissions: 52598.49 , netEmissions: -13238.49 },
-    { month: "Aug 2025", gridunitsConsumed: 56000, gridEmission: 34400, solarProduction: 82021, savedEmissions: 505542.915 , netEmissions: -471142.915 },
+    { month: "Aug 2025", gridunitsConsumed: 56000, gridEmission: 34400, solarProduction: 82021, savedEmissions: 50442.915 , netEmissions: -16042.915},
     { month: "Sep 2025", gridunitsConsumed: 92000, gridEmission: 56580, solarProduction: 93658, savedEmissions: 57599.67, netEmissions: -1019.67},
   ]
   // Scope 1 Data
