@@ -1,6 +1,6 @@
 "use client"
 
-import { Bar, BarChart, Line, LineChart, XAxis, YAxis, Legend } from "recharts"
+import { Bar, BarChart, Line, LineChart, XAxis, YAxis, Legend} from "recharts"
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
@@ -107,7 +107,7 @@ export default function CarbonBNUVisualizer() {
   // Calculate totals
   const totalScope2NetEmissions = scope2Data.reduce((sum, item) => sum + item.gridEmission, 0)
   const totalScope1Emissions = scope1Data.reduce((sum, item) => sum + item.emissionsinKg, 0)
-  const totalScope3Emissions = 5718.25
+  const totalScope3Emissions = 12031.48
 
   return (
     <div className="min-h-screen bg-white text-black">
@@ -161,7 +161,7 @@ export default function CarbonBNUVisualizer() {
               </CardHeader>
               <CardContent>
                 <div className="text-3xl font-bold text-red-600">{totalScope1Emissions.toLocaleString()} kg CO₂</div>
-                <p className="text-sm text-gray-600 mt-2">Jan-Jun 2025</p>
+                <p className="text-sm text-gray-600 mt-2">Jan-Sep 2025</p>
               </CardContent>
             </Card>
 
@@ -193,7 +193,7 @@ export default function CarbonBNUVisualizer() {
                 <div className="text-3xl font-bold text-orange-600">
                   {totalScope3Emissions.toLocaleString()} kg CO₂e
                 </div>
-                <p className="text-sm text-gray-600 mt-2">Two months waste Emission.</p>
+                <p className="text-sm text-gray-600 mt-2">Five months waste Emission.</p>
               </CardContent>
             </Card>
           </div>
@@ -386,7 +386,7 @@ export default function CarbonBNUVisualizer() {
                     0
                   )
                 ).toFixed(2)}{" "}
-                KgCO₂e/two months
+                KgCO₂e/Five months
               </div>
             </CardContent>
           </Card>
@@ -404,7 +404,7 @@ export default function CarbonBNUVisualizer() {
                     0
                   )
                 ).toFixed(2)}{" "}
-                kg/two months
+                kg/Five months
               </div>
               <p className="text-sm text-gray-600 mt-2">Scope 3 Category 5</p>
             </CardContent>
