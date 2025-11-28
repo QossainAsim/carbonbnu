@@ -15,15 +15,21 @@ export default function CarbonBNUVisualizer() {
     { month: "Apr 2025", gridunitsConsumed: 76000, gridEmission: 46740,  solarProduction: 111099,savedEmissions: 68325.885, netEmissions: -21585.885 },
     { month: "May 2025", gridunitsConsumed: 116000, gridEmission: 71340, solarProduction: 103934,savedEmissions: 63919.41 , netEmissions: 7420.59 },
     { month: "Jun 2025", gridunitsConsumed: 148000, gridEmission: 91020, solarProduction: 91186, savedEmissions: 56079.39 , netEmissions: 34940.61 },
+    { month: "Jul 2025", gridunitsConsumed: 64000, gridEmission: 39360, solarProduction: 85526, savedEmissions: 52598.49 , netEmissions: -13238.49 },
+    { month: "Aug 2025", gridunitsConsumed: 56000, gridEmission: 34400, solarProduction: 82021, savedEmissions: 505542.915 , netEmissions: -471142.915 },
+    { month: "Sep 2025", gridunitsConsumed: 92000, gridEmission: 56580, solarProduction: 93658, savedEmissions: 57599.67, netEmissions: -1019.67},
   ]
   // Scope 1 Data
   const scope1Data = [
-    { month: "Jan 2025", dieselConsumption: 23267.72, emissionsinKg: 11095.2 },
-    { month: "Feb 2025", dieselConsumption: 11032.63, emissionsinKg: 18191.84 },
-    { month: "Mar 2025", dieselConsumption: 11100.8,  emissionsinKg: 10588.68 },
-    { month: "Apr 2025", dieselConsumption: 21076.71, emissionsinKg: 8956.56 },
-    { month: "May 2025", dieselConsumption: 12642.14, emissionsinKg: 7589.76 },
-    { month: "Jun 2025", dieselConsumption: 12642.14, emissionsinKg: 11647.28 }, 
+    { month: "Jan 2025", dieselConsumption: 4010, emissionsinKg: 11095.2},
+    { month: "Feb 2025", dieselConsumption: 6788, emissionsinKg: 18191.84},
+    { month: "Mar 2025", dieselConsumption: 3951,  emissionsinKg: 10588.68},
+    { month: "Apr 2025", dieselConsumption: 3342, emissionsinKg: 8956.56},
+    { month: "May 2025", dieselConsumption: 2832, emissionsinKg: 7589.76},
+    { month: "Jun 2025", dieselConsumption: 4346, emissionsinKg: 11647.28}, 
+    { month: "Jul 2025", dieselConsumption: 4037, emissionsinKg: 10819.16}, 
+    { month: "Aug 2025", dieselConsumption: 3434, emissionsinKg: 9203.16}, 
+    { month: "Sep 2025", dieselConsumption: 6681, emissionsinKg: 17105.08},
   ]
 
   // Scope 3 Data
@@ -53,6 +59,48 @@ export default function CarbonBNUVisualizer() {
     emissionsFoodWaste: 1596.015,
     emissionsPlastic: 198.72,
     emissionsCartons: 260.004,
+  },
+
+  {
+    month: "Jul 2025",
+    bottles: 60.2,
+    glass: 46.9,
+    foodWaste: 1484,
+    plastic: 52.3,
+    cartons: 116.6,
+    emissionsBottles: 150.5,
+    emissionsGlass: 67.3953,
+    emissionsFoodWaste: 1936.62,
+    emissionsPlastic: 150.624,
+    emissionsCartons: 109.604,
+  },
+    
+  {
+    month: "Aug 2025",
+    bottles: 40.8,
+    glass: 40.5,
+    foodWaste: 1107,
+    plastic: 36.9,
+    cartons: 23.1,
+    emissionsBottles: 102,
+    emissionsGlass: 58.1985,
+    emissionsFoodWaste: 1444.635,
+    emissionsPlastic: 106.272,
+    emissionsCartons: 21.714,
+  },
+
+  {
+    month: "Sep 2025",
+    bottles: 45.8,
+    glass: 35.8,
+    foodWaste: 1438,
+    plastic: 32.8,
+    cartons: 30.5,
+    emissionsBottles: 114.5,
+    emissionsGlass: 51.4446,
+    emissionsFoodWaste: 1876.59,
+    emissionsPlastic: 94.464,
+    emissionsCartons: 28.67,
   }
 ];
 
